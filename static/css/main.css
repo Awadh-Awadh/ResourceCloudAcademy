@@ -14,7 +14,7 @@ body { padding-top: 70px; }
   padding: 0 5%;
   width: 100%
 }
-/* .hero{
+/* div{
   border:2px solid red
 } */
 .main-content{
@@ -59,11 +59,21 @@ body { padding-top: 70px; }
 .demo a{
   text-decoration: none;
 }
-.demo{
+.demo, .icon{
   display: flex;
   justify-content: center;
   align-content: center;
 }
+#about{
+  margin: 15% 0;
+  padding: 2rem 2rem;
+}
+
+
+
+
+
+
 
 @keyframes  swing {
   0%   { transform: rotate(20deg); }

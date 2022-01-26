@@ -33,7 +33,7 @@
       <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img class = "logo" src="../static/images/logo.png" alt="">
+            <img class="logo" src="../static/images/logo.png" alt="">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,36 +60,68 @@
           </div>
         </div>
       </nav>
-  <!-- Hero -->
-    <div class="main-content">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="hero-content">
-            <div class="header">
-              <h1>Turn your Certification into <strong>Qualification</strong></h1>
+      <!-- Hero -->
+      <div class="main-content">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="hero-content">
+              <div class="header">
+                <h1>Turn your Certification into <span class="qualif"><strong>Qualification</strong></span></h1>
+              </div>
+              <div class="hero-description">
+                <p>
+                  Begin your journey of qualification with us. Get to work with a team dedicated to see you progress
+                  with your
+                  tech career. Become a pragmatic engineer with us. You should be part of this.</p>
+              </div>
+              <div class="demo">
+                <button type="button" class="btn btn-dark btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  <img src="https://img.icons8.com/color/48/000000/why-quest.png" />
+                <strong> Why RCA</strong>
+                </button>
+                <!-- Font-awsome video icon -->
+                
+              </div>
+
+
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog  modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="video">
+                        <video width="500" height="400" controls>
+                          <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg> <source
+                            src="../static/images/intro.mp4" type=video/mp4> 
+                          </video>
+                           </div> 
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
             </div>
-            <div class="hero-description">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et impedit voluptas in fugiat illum, quisquam ex
-              quo, inventore molestias similique modi fuga fugit rem soluta dolore deleniti numquam quae harum.
-            </div>
-            <div class="demo">
-              <!-- Font-awsome video icon -->
-              <strong> <a href="#"> What is RCA</a> </strong>
+          </div>
+          <div class="col-md-6">
+            <div class="hero-img">
+              <img src="../static/images/idea.svg" alt="hero-image" class="hero-image">
             </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="hero-img">
-            <img src="../static/images/idea.svg" alt="hero-image" class="hero-image">
-          </div>
-         
-        </div>
+
       </div>
+    </section>
 
-    </div>
-  </section>
-
-</div>
+  </div>
   <!-- About -->
 
   <section id="about">
@@ -132,38 +164,34 @@
         <div class="col-md-6">
           <div class="video">
             <video width="500" height="400" controls>
-              <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
-              <source src="../static/images/intro.mp4" type=video/mp4>
-            </video>
-          </div>
+              <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg> <source
+                src="../static/images/intro.mp4" type=video/mp4> 
+              </video>
+               </div> 
+              </div> <div class="col-md-6">
+              <div class="note">
+                <!-- Tick Icons -->
+                <h4>Pragmatic Approach</h4>
+                <p>Hand on real life projects</p>
+             </div>
+              <div class="note">
+                <!-- Icons -->
+                <h4>Personal Branding</h4>
+                <p>Learn how to put yourself out to the world</p>
+              </div>
+              <div class="note">
+                <!-- Icons -->
+                <h4>Improve your soft skills</h4>
+                <p>Learn how to do presentations, learn how to effeciently communicate
+                  your ideas and more
+                </p>
+              </div>
 
-
-        </div>
-
-        <div class="col-md-6">
-          <div class="note">
-            <!-- Tick Icons -->
-            <h4>Pragmatic Approach</h4>
-            <p>Hand on real life projects</p>
           </div>
-          <div class="note">
-            <!-- Icons -->
-            <h4>Personal Branding</h4>
-            <p>Learn how to put yourself out to the world</p>
-          </div>
-          <div class="note">
-            <!-- Icons -->
-            <h4>Improve your soft skills</h4>
-            <p>Learn how to do presentations, learn how to effeciently communicate
-              your ideas and more
-            </p>
-          </div>
-    
         </div>
       </div>
-    </div>
-     
-   
+
+
 
 
 
@@ -171,84 +199,85 @@
 
   <!-- team -->
   <section id="team">
-      <div class="team-head">
-        <h2 class = "text-center">Meet Our Team </h2><hr>
+    <div class="team-head">
+      <h2 class="text-center">Meet Our Team </h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="wrap">
+          <div class="card-image">
+            <!-- Sam Video -->
+          </div>
+          <div class="content">
+            <h6>Name</h6>
+            <h6>field</h6>
+            <div class="socials">
+              Linked-in
+              Twitter
+              Phone
+            </div>
+          </div>
+        </div>
+
       </div>
-      <div class="row">
-        <div class="col-md-3">
-          <div class="wrap">
-            <div class="card-image">
-              <!-- Sam Video -->
-            </div>
-            <div class="content">
-              <h6>Name</h6>
-              <h6>field</h6>
-              <div class="socials">
-                Linked-in
-                Twitter
-                Phone
-              </div>
-            </div>
+      <div class="col-md-3">
+        <div class="wrap">
+          <div class="card-image">
+            <!-- Sam Video -->
           </div>
-          
-        </div>
-        <div class="col-md-3">
-          <div class="wrap">
-            <div class="card-image">
-              <!-- Sam Video -->
-            </div>
-            <div class="content">
-              <h6>Name</h6>
-              <h6>field</h6>
-              <div class="socials">
-                Linked-in
-                Twitter
-                Phone
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="wrap">
-            <div class="card-image">
-              <!-- Sam Video -->
-            </div>
-            <div class="content">
-              <h6>Name</h6>
-              <h6>field</h6>
-              <div class="socials">
-                Linked-in
-                Twitter
-                Phone
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="wrap">
-            <div class="card-image">
-              <!-- Sam Video -->
-            </div>
-            <div class="content">
-              <h6>Name</h6>
-              <h6>field</h6>
-              <div class="socials">
-                Linked-in
-                Twitter
-                Phone
-              </div>
+          <div class="content">
+            <h6>Name</h6>
+            <h6>field</h6>
+            <div class="socials">
+              Linked-in
+              Twitter
+              Phone
             </div>
           </div>
         </div>
       </div>
+      <div class="col-md-3">
+        <div class="wrap">
+          <div class="card-image">
+            <!-- Sam Video -->
+          </div>
+          <div class="content">
+            <h6>Name</h6>
+            <h6>field</h6>
+            <div class="socials">
+              Linked-in
+              Twitter
+              Phone
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="wrap">
+          <div class="card-image">
+            <!-- Sam Video -->
+          </div>
+          <div class="content">
+            <h6>Name</h6>
+            <h6>field</h6>
+            <div class="socials">
+              Linked-in
+              Twitter
+              Phone
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Footer -->
   <section id="contact-us">
     <div class="quote text-center">
 
-      <h4 class = >You Stop Learning You stop Earning</h4>
-       <span><em>Learn, Unlearn, Relearn</em></span>
+      <h4 class=>You Stop Learning You stop Earning</h4>
+      <span><em>Learn, Unlearn, Relearn</em></span>
     </div>
     <div class="row">
       <div class="col-md-4">

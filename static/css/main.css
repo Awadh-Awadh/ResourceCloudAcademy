@@ -3,9 +3,10 @@
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  overflow-y: hidden;
+  
   
 }
+body { padding-top: 70px; }
 .navbar{
   background-color: #fff;
 }
@@ -17,7 +18,7 @@
   border:2px solid red
 } */
 .main-content{
-  margin-top:10%
+  margin-top:7%
 }
 
 .logo{
@@ -27,7 +28,8 @@
 
 .hero-image{
   width: 700px;
-  animation: swing 5s linear 2s infinite alternate
+  animation: swing 5s linear 2s infinite alternate;
+ 
 }
 .hero-image:hover{
   cursor: pointer;
@@ -36,9 +38,32 @@
 
 .hero-img{
   left: 2rem;
+  overflow-y: hidden;
  
 }
-
+.header h1{
+  width: 88%;
+  line-height: 5rem;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+.header .qualif{
+  color: #8f00ff;
+}
+.hero-description p{
+  font-weight: 500;
+  margin: 2rem 0;
+  width: 90%;
+  font-size: 1rem;
+}
+.demo a{
+  text-decoration: none;
+}
+.demo{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 
 @keyframes  swing {
   0%   { transform: rotate(20deg); }

@@ -26,13 +26,15 @@
 
 
   <!-- nav -->
-  <main class="container-fluid">
+  <div class="container-fluid hero">
 
     <section>
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">
+            <img class = "logo" src="../static/images/logo.png" alt="">
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -58,14 +60,7 @@
           </div>
         </div>
       </nav>
-    </section>
-  </main>
-
-
   <!-- Hero -->
-
-
-  <section>
     <div class="main-content">
       <div class="row">
         <div class="col-md-6">
@@ -84,15 +79,17 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="hero-image">
-            <img src="/static/images/hero.svg" alt="Hero image">
+          <div class="hero-img">
+            <img src="../static/images/idea.svg" alt="hero-image" class="hero-image">
           </div>
+         
         </div>
       </div>
 
     </div>
   </section>
 
+</div>
   <!-- About -->
 
   <section id="about">
@@ -127,38 +124,46 @@
     </div>
     </div>
 
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-
-        <div class="media">
-          <!-- Video -->
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6">
+    <div class="ideation">
       <div class="about-content">
         <h2 class="text-center">Why Resource Cloud Academy?</h2>
       </div>
-      <div class="note">
-        <!-- Tick Icons -->
-        <h4>Pragmatic Approach</h4>
-        <p>Hand on real life projects</p>
-      </div>
-      <div class="note">
-        <!-- Icons -->
-        <h4>Personal Branding</h4>
-        <p>Learn how to put yourself out to the world</p>
-      </div>
-      <div class="note">
-        <!-- Icons -->
-        <h4>Improve your soft skills</h4>
-        <p>Learn how to do presentations, learn how to effeciently communicate
-          your ideas and more
-        </p>
-      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="video">
+            <video width="500" height="400" controls>
+              <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
+              <source src="../static/images/intro.mp4" type=video/mp4>
+            </video>
+          </div>
 
+
+        </div>
+
+        <div class="col-md-6">
+          <div class="note">
+            <!-- Tick Icons -->
+            <h4>Pragmatic Approach</h4>
+            <p>Hand on real life projects</p>
+          </div>
+          <div class="note">
+            <!-- Icons -->
+            <h4>Personal Branding</h4>
+            <p>Learn how to put yourself out to the world</p>
+          </div>
+          <div class="note">
+            <!-- Icons -->
+            <h4>Improve your soft skills</h4>
+            <p>Learn how to do presentations, learn how to effeciently communicate
+              your ideas and more
+            </p>
+          </div>
+    
+        </div>
+      </div>
     </div>
+     
+   
 
 
 

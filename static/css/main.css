@@ -1,0 +1,49 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  
+}
+.navbar{
+  background-color: #fff;
+}
+.hero, nav{
+  padding: 0 5%;
+  width: 100%
+}
+/* .hero{
+  border:2px solid red
+} */
+.main-content{
+  margin-top:10%
+}
+
+.logo{
+  width: 100px;
+  height: 80px
+}
+
+.hero-image{
+  width: 700px;
+  animation: swing 5s linear 2s infinite alternate
+}
+.hero-image:hover{
+  cursor: pointer;
+  
+}
+
+.hero-img{
+  left: 2rem;
+ 
+}
+
+
+@keyframes  swing {
+  0%   { transform: rotate(20deg); }
+  25%  { transform: rotate(0deg)}
+  50%  {transform: rotate(-20deg)}
+  75%  {transform: rotate(0deg)}
+  100% {transform: rotate(20deg)}
+}

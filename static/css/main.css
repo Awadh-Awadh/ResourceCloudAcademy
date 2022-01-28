@@ -6,9 +6,18 @@
   
   
 }
-body { padding-top: 70px; }
+body { padding-top: 70px; 
+
+}
+
+
+h2{
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
 .navbar{
-  background-color: #fff;
+  background-color: #ecf0f3;
 }
 .hero, nav{
   padding: 0 5%;
@@ -65,13 +74,35 @@ body { padding-top: 70px; }
   align-content: center;
 }
 #about{
-  margin: 15% 0;
+  margin-top: 10%;
   padding: 2rem 2rem;
 }
 
 
 
+hr{
+  width: 15%;
+  margin: 1rem auto;
+  background-color: #8f00ff;
+  height: 3px !important;
+  
+}
+.note1{
+  margin: 3rem 0;
+}
+.cnt{
+  margin-top: 2rem;
+}
 
+.ideation{
+  padding: 4rem 0;
+  margin: 5rem 0; 
+  
+}
+.fa-check-circle{
+  font-size: 2.5rem;
+  color: #8f00ff;
+}
 
 
 

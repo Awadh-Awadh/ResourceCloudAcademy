@@ -24,12 +24,15 @@ h2{
 }
 
 #team{
-  margin: 10% 0;
-  padding:10%  10%;
-  background-color: #8f00ff;
+  margin-top: 10%;
+  padding:5%  5%;
+  background: #6a3093;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #a044ff, #6a3093);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  
   color: #fff;
 }
-
 
 
 
@@ -135,8 +138,46 @@ hr{
   font-size: 2rem ;
   opacity: 1;
 }
+.qts{
+  content: "\201C";
+  font-size: 7rem;
 
+}
+.quote{
+  margin: 4%;
+}
+#contact-us{
+background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin-top: 10%;
+color: #ecf0f3;
+padding: 2rem 4rem;
+}
 
+.footer-img{
+  width: 350px;
+  height: 250px;
+}
+.link{
+  margin-top: 3rem;
+
+}
+.link a{
+  color: #fff;
+  text-decoration: none;
+ 
+}
+.link a i{
+  font-size: 2rem;
+ 
+}
+.link a:hover{
+  text-decoration: underline;
+}
+.inner{
+  margin-top: 2rem;
+}
 @keyframes  swing {
   0%   { transform: rotate(20deg); }
   25%  { transform: rotate(0deg)}

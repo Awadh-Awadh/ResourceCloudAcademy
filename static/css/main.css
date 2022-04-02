@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* overflow-x: hidden; */
 
   
 }
@@ -220,6 +219,25 @@ padding: 2rem 4rem;
   75%  {transform: rotate(0deg)}
   100% {transform: rotate(20deg)}
 }
+
+/* 
+About-page */
+.about-hero{
+  background-color: #005bff;
+  padding: 6% 0;
+  width: 100%;
+  color: #fff;
+}
+.community-img{
+  width: 600px;
+  border-radius: 10px;
+
+}
+.dot-img{
+  width: 100px;
+  height: 100px;
+}
+
 
 
 

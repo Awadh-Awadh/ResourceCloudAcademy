@@ -207,6 +207,15 @@ padding: 2rem 4rem;
 }
 
 @media only screen and (max-width: 600px) {
-  body {
+
+
+
+  @keyframes  swing {
+    0%   { transform: rotate(0deg); }
+    25%  { transform: rotate(0deg)}
+    50%  {transform: rotate(0deg)}
+    75%  {transform: rotate(0deg)}
+    100% {transform: rotate(0deg)}
   }
+  
 }

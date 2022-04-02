@@ -19,6 +19,7 @@
   <!-- Font-awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <title>Resource cloud Academy</title>
 </head>
 
@@ -30,36 +31,16 @@
 
     <section>
 
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img class="logo" src="./static/images/logo.png" alt=""> RCA
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="ms-auto navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about2">About Us</a>
-              </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-              </li> -->
-              <li class="nav-item">
-                <a class="nav-link" href="#team">Team</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact-us">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <!-- Nav -->
+      <div id="nav-placeholder">
+
+      </div>
+      <script>
+        $(function(){
+          $("#nav-placeholder").load("nav.html")
+        })
+      </script>
+      
       <!-- Hero -->
       <div class="main-content">
         <div class="row">
@@ -306,79 +287,17 @@
             </div>
   </section>
 
+ 
   <!-- Footer -->
-  <section class="quote text-center">
-    <div class="qouations">
-      <span class = "qts">&#8220;</span>
-    </div>
-    <div class="quote text-center">
 
-      <h4 class=>You Stop Learning You stop Earning</h4>
-      <span><em>Learn, Unlearn, Relearn</em></span>
-    </div>
-  </section>
+  <div id="footer-placeholder">
 
-
-
-  <section id="contact-us">
-    <div class="row">
-      <div class="col-md-4  d-flex justify-content-center">
-        <div>
-          <h5 class = "text-center">Resouce Cloud Academy</h5>
-          <div class="link">
-            <div class="slack">
-              <a href="https://join.slack.com/t/resourcecloud-iue2544/shared_invite/zt-12tvjrx6c-vYpdJ~iJLH6A_2qve~5XSw">
-                <p> <i class="fab fa-slack"></i> Slack</p></a>
-            </div>
-          <div class="linked">
-            <a href="https://www.linkedin.com/company/resource-cloud-academy/" target="blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-          </div>
-          
-          </div>
-        </div>
-        
-       
-      </div>
-    
-      <div class="col-md-4  d-flex justify-content-center">
-        <img class = "footer-img"src="./static/images/logo.png" alt="">
-      </div>
-      <div class="col-md-4  d-flex justify-content-center">
-        <div class = "contact-us">
-          <h5 class = "text-center">Contact Us</h5>
-          <div>
-            <div class="inner">
-
-              <p> 
-                <i class="fas fa-phone"></i> 0740111615
-               </p>
-                <p>
-                  <i class="fas fa-envelope"></i> resourcecloudacademy@gmail.com
-                </p>
-                <div class="qu0te">
-                  <small>"The best way to predict the future is by creating it"</small>
-                </div>
-            </div>
-          
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer class="text-center">
-    &copy copyright 2022.
-    <p>All rights reserved</p>
-  </footer>
-
-</div>
-  <!-- Header-section -->
-
-
-  <!-- nav -->
-  
-
+  </div>
+  <script>
+    $(function(){
+      $("#footer-placeholder").load('footer.html')
+    })
+  </script>
 
 
 

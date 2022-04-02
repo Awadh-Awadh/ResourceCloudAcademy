@@ -116,6 +116,7 @@ hr{
     transition: 1s ease;
     margin: 2rem 0;
     border: 1px solid #005b;
+    border-radius: 10px;
     
 }
 .active-img{

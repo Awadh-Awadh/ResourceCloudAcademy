@@ -103,6 +103,10 @@ hr{
   height: 3px !important;
   
 }
+.vids{
+  width:500px;
+  height:400px
+}
 
 .note1{
   margin: 3rem 0;
@@ -186,9 +190,7 @@ padding: 2rem 4rem;
 }
 
 
-[class*="col-2"] {
-  width: 100%;
-}
+
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
@@ -207,7 +209,37 @@ padding: 2rem 4rem;
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+
+
+  .logo{
+    width: 70px;
+    height: 60px
+  }
+  .hero-image{
+    width: 300px;
+    animation: swing 5s linear 2s infinite alternate;
+    display: none;
+   
+  }
+  h2{
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  .header h1{
+    width: 88%;
+    line-height: 3.5rem;
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .vids{
+    width:300px;
+    height:300px
+  }
+  @keyframes  swing {
+    0%   { transform: rotate(0deg); }
+    25%  { transform: rotate(0deg)}
+    50%  {transform: rotate(0deg)}
+    75%  {transform: rotate(0deg)}
+    100% {transform: rotate(0deg)}
   }
 }

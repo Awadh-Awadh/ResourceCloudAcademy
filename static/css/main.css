@@ -19,20 +19,16 @@ h2{
 
 #about{
   margin-top: 10%;
-  padding: 2rem 2rem;
-  background-color: #8f00ff;
+  padding: 2rem 0;
+  max-width: 100%;
+  background-color: #005bff;
   color: #fff;
 }
 
 #team{
   margin-top: 10%;
-  padding:5%  5%;
-  background: #6a3093;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #a044ff, #6a3093);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  
-  color: #fff;
+  padding:1%  5%;
+  color: #000;
 }
 
 
@@ -78,7 +74,7 @@ background: linear-gradient(to right, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, F
   font-weight: 800;
 }
 .header .qualif{
-  color: #8f00ff;
+  color:  #005bff;
 }
 .hero-description p{
   font-weight: 500;
@@ -99,15 +95,43 @@ background: linear-gradient(to right, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, F
 hr{
   width: 15%;
   margin: 1rem auto;
-  background-color: #8f00ff;
+  background-color: #005bff;
   height: 3px !important;
   
 }
 .vids{
-  width:500px;
-  height:400px
+  width:300px;
+  height:350px;
+  
 }
-
+.imgs{
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+}
+ .wraper{
+    width: 500px;
+    height: 300px;
+    cursor: pointer;
+    transition: 1s ease;
+    margin: 2rem 0;
+    border: 1px solid #005b;
+    
+}
+.active-img{
+  background-color: #005bff;
+  color: #fff;
+}
+.wraper:hover{
+  background-color: #005bff!important;
+  color: #fff
+}
+.video{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 1rem;
+}
 .note1{
   margin: 3rem 0;
 }
@@ -126,26 +150,33 @@ hr{
 }
 .fa-check-circle{
   font-size: 2.5rem;
-  color: #8f00ff;
+  color: #005bff;
 }
 .content{
  margin-top: 1.5rem;
 }
+
 .in{
   font-size: 1.5rem;
   opacity: .6;
+  color: #000;
   transition: .5s ease-in;
 }
 .in:hover{
   transform: rotate(360deg);
   font-size: 2rem ;
   opacity: 1;
+  color: #fff;
 }
+
 .qts{
   content: "\201C";
   font-size: 7rem;
-
 }
+
+
+
+
 .quote{
   margin: 4%;
 }
@@ -234,6 +265,9 @@ padding: 2rem 4rem;
   .vids{
     width:300px;
     height:300px
+  }
+  #about{
+    width: 100%;
   }
   @keyframes  swing {
     0%   { transform: rotate(0deg); }

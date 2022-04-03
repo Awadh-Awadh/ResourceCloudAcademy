@@ -239,7 +239,16 @@ About-page */
 }
 
 
-
+/* Team */
+.team-hero{
+  background-image: url('/static/images/teambg.jpeg');
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding: 10% 0;
+  color: #fff;
+  background-color: #005bff;
+  opacity: 0.8;
+}
 
 
 @media only screen and (min-width: 768px) {

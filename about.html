@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -19,13 +20,12 @@
   <!-- Font-awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <title>About</title>
 </head>
 <body>
-<main>
+<main class = "container-fluid">
   <section id="about-hero">
-    <div class="container-fluid">
+    <div>
       <div class="nav">
         <!-- Nav -->
       <div id="nav-placeholder">
@@ -37,10 +37,10 @@
         })
       </script>
       </div>
-      <div class="about-hero">
+      <div class="about-hero row">
         <div class="container">
           <div class="about-main">
-            <div class="about-hero-content">
+            <div class="about-hero-content container">
               <h1>About Us</h1>
               <p>More about what we do</p>
              </div>
@@ -50,7 +50,7 @@
       <div class="about-main-content">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 about-content-header">
               <h1>The Academy</h1>
               <p>We help students in IT-related courses equip themselves with relevant skills before they are out of the university. 
                 Our main niche is in the matters cloud but we believe that all students taking IT-related courses can benefit from mastering 
@@ -146,6 +146,9 @@
   </script>
 
 </main>
-  
+ 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
 </body>
 </html>

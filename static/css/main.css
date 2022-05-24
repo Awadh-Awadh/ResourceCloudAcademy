@@ -1,10 +1,9 @@
 
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
-  
 }
 body { padding-top: 70px; 
 
@@ -224,10 +223,11 @@ padding: 2rem 4rem;
 About-page */
 .about-hero{
   background-color: #005bff;
-  padding: 6% 0;
-  width: 100%;
+  padding: 10% 0;
+  width: auto;
   color: #fff;
 }
+
 .community-img{
   width: 600px;
   border-radius: 10px;
@@ -237,7 +237,19 @@ About-page */
   width: 100px;
   height: 100px;
 }
+.about-main-content{
+  margin: 8rem 0;
+}
+.about-content-header h1{
+  padding: 2rem 0;
+  font-weight: 500;
+  text-align: center;
+}
 
+.about-content-header p{
+  line-height: 50px;
+  padding-bottom: 4rem;
+}
 
 /* Team */
 .team-hero{
